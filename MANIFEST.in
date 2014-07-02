@@ -1,0 +1,5 @@
+include libvirtd.py
+include libvirtd.cfg
+include README.md
+include CHANGELOG.md
+include PROJECT.txt
