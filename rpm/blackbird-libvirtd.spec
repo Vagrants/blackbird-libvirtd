@@ -1,8 +1,8 @@
 %define _unpackaged_files_terminate_build 0
 %define name blackbird-libvirtd
-%define version 0.1.4
-%define unmangled_version 0.1.4
-%define release 2
+%define version 0.1.0
+%define unmangled_version 0.1.0
+%define release 1
 
 %define blackbird_conf_dir /etc/blackbird/conf.d
 
@@ -18,8 +18,8 @@ Prefix: %{_prefix}
 BuildArch: noarch
 Vendor: makocchi <makocchi@gmail.com>
 Packager: makocchi <makocchi@gmail.com>
-Requires:  blackbird
-Requires:  libvirt-python
+Requires: blackbird
+Requires: libvirt-python
 Url: https://github.com/Vagrants/blackbird-libvirtd
 BuildRequires:  python-devel
 
